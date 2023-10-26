@@ -54,15 +54,13 @@ echo("------Exo 5------" . "\n");
 
 $Age = readline("Entrez l'âge de l'enfant". "\n");
     if($Age >= 6 && $Age <= 7 )
-    echo("Poussin". "\n");
-    else
-        if($Age >= 8 && $Age <= 9 )
+        echo("Poussin". "\n");
+    elseif($Age >= 8 && $Age <= 9 )
         echo("Pupille". "\n");
-        else
-            if($Age >= 10 && $Age <= 11 )
-            echo("Minime". "\n");
-            else
-                echo("Cadet". "\n");
+    elseif($Age >= 10 && $Age <= 11 )
+        echo("Minime". "\n");
+    else
+         echo("Cadet". "\n");
 
 echo("------Exo 6------". "\n");
 

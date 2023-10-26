@@ -14,7 +14,7 @@ echo $prenom . "\n";
 
 echo "-----Exo 3-----" . "\n";
 
-$Prix = readline("Entrez le prix" . "\n");
+$Prix = readline("Entrez le prix HT" . "\n");
 $Quantite = readline("Entrez la quantiter" . "\n");
 $TVA = readline("Entrez la TVA" . "\n");
 $Total = $Prix * $Quantite * (1 + $TVA * 0.01);
