@@ -1,6 +1,7 @@
 <?php
 
     echo("------Exo 2------" . "\n");
+    
     $pos = 0;
     $neg = 0;
     $nombre=[];
@@ -14,4 +15,4 @@
             $pos ++;
         }
     }
-    echo("Nombre de negatif : " . $neg . "\n" . "Nombre de positif :" . $pos . "\n");
+    echo("Nombre de negatif : " . $neg . "\n" . "Nombre de positif : " . $pos . "\n");

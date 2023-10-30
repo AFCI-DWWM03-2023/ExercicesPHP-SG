@@ -33,25 +33,25 @@ foreach($nombre as $valeur){
 
 // -----------TRI PAR SELECTION--------------
 
-$min = 0;
-$nombre2=[];
-$taille = readline("Taille : ". "\n");
-for($i=0;$i<$taille;$i++){
-    $saisie = readline("nombre : ". "\n");
-    $nombre2[$i] = $saisie;
-}
+// $min = 0;
+// $nombre2=[];
+// $taille = readline("Taille : ". "\n");
+// for($i=0;$i<$taille;$i++){
+//     $saisie = readline("nombre : ". "\n");
+//     $nombre2[$i] = $saisie;
+// }
 
-    for($i=0;$i<=count($nombre2)-2;$i++){
-        $min = $i;
-        for($j=0;$i+1 < $taille-1;$j++){
-            if($nombre2[$j] < $nombre2[$min]){
-                $min = $j;
-            }
+//     for($i=0;$i<=count($nombre2)-2;$i++){
+//         $min = $i;
+//         for($j=0;$i+1 < $taille-1;$j++){
+//             if($nombre2[$j] < $nombre2[$min]){
+//                 $min = $j;
+//             }
 
-        }
-        if ($min =! $i){
-            $nombre2[$i] = $nombre2[$min];
-        }
+//         }
+//         if ($min =! $i){
+//             $nombre2[$i] = $nombre2[$min];
+//         }
 
 
-    }
+//     }

@@ -1,6 +1,7 @@
 <?php
-    echo("------Exo 1------" . "\n");
-    $estVrai = true;
+
+    echo("------Exo 3------" . "\n");
+
     $nombre=[];
     $taille = readline("Taille : ". "\n");
     for($i=0;$i<$taille;$i++){

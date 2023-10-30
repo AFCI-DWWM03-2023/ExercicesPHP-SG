@@ -1,5 +1,7 @@
 <?php
 
+echo("------Exo 5------" . "\n");
+
 $nombre=[];
     $taille = readline("Taille : ". "\n");
     for($i=0;$i<$taille;$i++){
@@ -8,7 +10,6 @@ $nombre=[];
     }
 
 $doublons = false;
-
 for ($i = 0; $i < $taille - 1; $i++) {
         if ($nombre[$i] == $nombre[$i+1]) {
             $doublons = true;

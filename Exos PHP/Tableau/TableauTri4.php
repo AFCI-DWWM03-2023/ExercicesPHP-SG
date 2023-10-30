@@ -1,12 +1,14 @@
 <?php
 
+echo("------Exo 4------" . "\n");
+
 $dictionnaire = ["abeille", "banane", "chat", "chien", "fleur", "pomme", "soleil", "zèbre"];
 
 $motRecherche = readline("Entrez le mot à rechercher : ");
 
 $trouve = false;
 foreach ($dictionnaire as $mot) {
-    if ($mot === $motRecherche) {
+    if ($mot == $motRecherche) {
         $trouve = true;
         break;
     }

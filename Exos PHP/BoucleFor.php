@@ -62,26 +62,25 @@
 // echo("Plus grand : " . $g);
 
 
-// echo("------Exo Bonus Poussin en switch------" . "\n");
+echo("------Exo Bonus Poussin en switch------" . "\n");
 
-// $Age = readline("Entrez l'âge de l'enfant". "\n");
+$Age = readline("Entrez l'âge de l'enfant". "\n");
 
-// switch($Age){
-//     case $Age > 11:
-//         echo("Cadet". "\n");
-//         break;
-//     case $Age >= 10:
-//         echo("Minime". "\n");
-//         break;
-//     case $Age >= 8:
-//         echo("Pupille". "\n");
-//         break;
-//     case $Age >= 6:
-//         echo("Poussin". "\n");
-//         break;
-//     case $Age < 6:
-//         echo("Trop jeune !!". "\n");
-//         break;
-        
-// }
+switch($Age){
+    case $Age >= 12:
+        echo("Cadet". "\n");
+        break;
+    case $Age >= 10:
+        echo("Minime". "\n");
+        break;
+    case $Age >= 8:
+        echo("Pupille". "\n");
+        break;
+    case $Age >= 6:
+        echo("Poussin". "\n");
+        break;
+    case $Age < 6:
+        echo("Trop jeune !!". "\n");
+        break;  
+}
 
