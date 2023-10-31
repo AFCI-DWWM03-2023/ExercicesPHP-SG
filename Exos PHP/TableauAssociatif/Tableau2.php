@@ -1,5 +1,7 @@
 <?php
 
+echo("------Exo 2------". "\n");
+
 $tabNotes["Boucher"] = 10;
 $tabNotes["Bourdette"] = 8;
 $tabNotes["Charcutier"] = 15;
@@ -13,8 +15,6 @@ foreach($tabNotes as $nom =>$valeur){
 $total = 0;
 foreach($tabNotes as $nom =>$valeur){
     $total += $valeur;
-
-
 
 }
 echo "Moyenne : " . $total/count($tabNotes);

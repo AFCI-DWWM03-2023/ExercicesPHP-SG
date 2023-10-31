@@ -8,7 +8,7 @@
 
 // echo("------Exo 1------" . "\n");
 
-// $rand = rand(1,9);
+// $rand = readline("Entrez un nombre");
 
 // for($i=1;$i <= 10; $i ++){
 //     $res = $i * $rand ;
@@ -32,15 +32,16 @@
 // }
 
 
-//  echo("------Exo 3------" . "\n");
+ echo("------Exo 3------" . "\n");
 
-//     $n = readline("Entrez un nombre"); 
-//     $f = $n;
-//     for ($i = 1; $i <= $n; $i ++){ 
-//       $f = $i * $i; 
-//     } 
- 
-//   echo "La factorielle de $n est $f"; 
+ $nb = readline("Entrez un nombre : ");
+ $resultat = 1;
+
+ for ($i=1; $i<=$nb; $i++){
+     $resultat = $i * $resultat;
+}
+ echo "La factorielle de $nb est $resultat.\n \n";
+
 
 
 // echo("------Exo 4------" . "\n");
@@ -62,25 +63,25 @@
 // echo("Plus grand : " . $g);
 
 
-echo("------Exo Bonus Poussin en switch------" . "\n");
+// echo("------Exo Bonus Poussin en switch------" . "\n");
 
-$Age = readline("Entrez l'âge de l'enfant". "\n");
+// $Age = readline("Entrez l'âge de l'enfant". "\n");
 
-switch($Age){
-    case $Age >= 12:
-        echo("Cadet". "\n");
-        break;
-    case $Age >= 10:
-        echo("Minime". "\n");
-        break;
-    case $Age >= 8:
-        echo("Pupille". "\n");
-        break;
-    case $Age >= 6:
-        echo("Poussin". "\n");
-        break;
-    case $Age < 6:
-        echo("Trop jeune !!". "\n");
-        break;  
-}
+// switch($Age){
+//     case $Age >= 12:
+//         echo("Cadet". "\n");
+//         break;
+//     case $Age >= 10:
+//         echo("Minime". "\n");
+//         break;
+//     case $Age >= 8:
+//         echo("Pupille". "\n");
+//         break;
+//     case $Age >= 6:
+//         echo("Poussin". "\n");
+//         break;
+//     case $Age < 6:
+//         echo("Trop jeune !!". "\n");
+//         break;  
+// }
 
