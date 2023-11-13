@@ -51,10 +51,11 @@ function RandMsg(){
 }
 }
 
-function DevineQui(){
+function DevineQui()
+{
 
     echo "Pensez à un personnage : Melle Rose, le professeur Violet, le Colonel Moutarde, le Révérend Olive et Mme Leblanc." . "\n";
-    echo "Pour répondre veuillez utiliser ceci oui et  non" . "\n";
+    echo "Pour répondre veuillez utiliser ceci : oui et  non" . "\n";
     $verifReponse = readline("Votre personnage a-t-il des moustaches ?" . "\n");
     switch ($verifReponse) {
         case "oui":
